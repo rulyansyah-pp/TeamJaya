@@ -1,3 +1,17 @@
+:root {
+  --primary: #f1a500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+/* Menu Section */
 .menu {
   padding: 8rem 7% 1.4rem;
 }
@@ -11,11 +25,32 @@
 .menu h2 span {
   color: var(--primary);
 }
-/* Menu Section */
 .menu p {
   text-align: center;
   max-width: 30rem;
   margin: auto;
   font-weight: 100;
   line-height: 1.6;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.menu-card {
+  text-align: center;
+  background-color: #f1a500;
+}
+
+.menu .row .menu-card img {
+  border-radius: 50%;
+  width: 70%;
+}
+
+.menu .row .menu-card .menu-card-title {
+  margin: 1rem auto 0.5rem;
 }
