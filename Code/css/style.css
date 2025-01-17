@@ -33,25 +33,34 @@
   line-height: 1.6;
 }
 
-.row {
+.menu .row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 3rem;
   justify-content: center;
+  background-color: aqua;
 }
 
-.menu-card {
+.menu .menu-card {
   text-align: center;
-  background-color: #f1a500;
-  margin-right: 1rem;
-  margin-top: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid #666;
 }
 
-.menu .row .menu-card img {
-  border-radius: 50%;
-  width: 50%;
+.menu .row .menu-card .menu-image {
+  padding: 1rem 0;
+}
+
+.menu .row .menu-card .menu-image img {
+  height: 20rem;
 }
 
 .menu .row .menu-card .menu-card-title {
-  margin: 1rem auto 0.5rem;
+  font-size: 2rem;
+}
+
+.menu .row .menu-card .menu-card-price {
+  font-size: 1rem;
+  font-weight: bold;
 }
