@@ -1,14 +1,20 @@
-{
+:root {
+  --primary: #f1a500;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
-
 body {
-  background-color: #f1a500;
+  background-color: #010101;
   color: #fff;
 }
+
 /* Header */
 Header {
   display: flex;
@@ -37,6 +43,11 @@ nav ul {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  margin: 0.5rem;
+}
+
+nav ul li a:hover {
+  color: #666;
 }
 
 .icons img {
@@ -50,13 +61,13 @@ nav ul li a {
   justify-content: space-between;
   align-items: center;
   padding: 80px, 50px;
-  background: url('images/croffle.jpg') no-repeat center center/cover;
+  background: url("images/croffle.jpg") no-repeat center center/cover;
   height: 90vh;
 }
 
 .hero-content {
   max-width: 50%;
-} 
+}
 .hero h1 {
   font-size: 48px;
   font-weight: bold;
@@ -80,24 +91,6 @@ nav ul li a {
 .hero-image img {
   width: 300px;
   border-radius: 10px;
-}
-
-
-
-
-
-
-:root {
-  --primary: #f1a500;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
 }
 
 /* Menu Section */
@@ -127,7 +120,6 @@ nav ul li a {
   flex-wrap: wrap;
   margin-top: 3rem;
   justify-content: center;
-  background-color: aqua;
 }
 
 .menu .menu-card {
@@ -142,7 +134,7 @@ nav ul li a {
 }
 
 .menu .row .menu-card .menu-image img {
-  height: 20rem;
+  height: 15rem;
 }
 
 .menu .row .menu-card .menu-card-title {
