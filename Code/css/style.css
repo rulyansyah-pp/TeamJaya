@@ -11,7 +11,7 @@
   text-decoration: none;
 }
 body {
-  background-color: #010101;
+  background-color: #a56109;
   color: #fff;
 }
 
@@ -31,7 +31,7 @@ Header {
 }
 
 .logo span {
-  color: #3f3c3c;
+  color: #2c2b2b;
 }
 
 nav ul {
@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 .icons img {
   width: 5px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 /* Hero Section */
@@ -81,7 +81,7 @@ nav ul li a:hover {
 }
 .btn {
   display: inline-block;
-  background-color: #141616;
+  background-color: #5f3403;
   color: #eaf3f3;
   padding: 12px 24px;
   text-decoration: none;
@@ -92,6 +92,44 @@ nav ul li a:hover {
   width: 300px;
   border-radius: 10px;
 }
+/* Tentang Kami */
+.tentang-kami {
+  background-color: #533e03;
+  padding: 80px 50px;
+}
+.tentang-profile {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.tentang-profile img {
+  width: 500px;
+  border-radius: 10px;
+}
+.tentang-content {
+  max-width: 50%;
+}
+.tentang-content h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+.tentang-content h2 span {
+  color: #d4a373;
+}
+.tentang-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.tentang-content p {
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+
+
 
 /* Menu Section */
 .menu {
