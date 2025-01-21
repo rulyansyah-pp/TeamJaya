@@ -21,7 +21,7 @@ Header {
   justify-content: space-between;
   align-items: center;
   padding: 10px, 30px;
-  background-color: #f1a500;
+  background-color: #693f07;
 }
 
 .logo {
@@ -73,7 +73,7 @@ nav ul li a:hover {
   font-weight: bold;
 }
 .hero h1 span {
-  color: #f1a500;
+  color: #f8ac09;
 }
 .hero p {
   font-size: 16px;
@@ -81,7 +81,7 @@ nav ul li a:hover {
 }
 .btn {
   display: inline-block;
-  background-color: #5f3403;
+  background-color: #6b4107;
   color: #eaf3f3;
   padding: 12px 24px;
   text-decoration: none;
@@ -94,7 +94,7 @@ nav ul li a:hover {
 }
 /* Tentang Kami */
 .tentang-kami {
-  background-color: #533e03;
+  background-color: #693f07;
   padding: 80px 50px;
 }
 .tentang-profile {
@@ -128,6 +128,50 @@ nav ul li a:hover {
   line-height: 1.5;
 }
 
+/* Menu Kami */
+.menu-kami {
+  background-color: #a56109;
+  padding: 80px 50px;
+  text-align: center;
+}
+
+.menu-kami h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.menu-kami h2 span {
+  color: #f1c293;
+}
+
+.menu-kami p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.menu-item {
+  text-align: center;
+  width: 200px;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid #d4a373;
+}
+
+.menu-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
 
 
 
