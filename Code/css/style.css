@@ -283,6 +283,23 @@ body {
   font-size: 1rem;
 }
 
+.order {
+  text-align: center;
+  padding: 20px;
+  border-radius: 50px;
+  border: 2px dashed #a5a55d;
+}
+.text-order span {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.text-order div span {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 20px;
+}
 /* bagian contact */
 
 .form-container {
@@ -314,51 +331,51 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
-  /* bagian footer */
-  footer {
-    background-color: #000000; /* Warna cokelat sesuai dengan gambar */
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    font-family: Arial, sans-serif;
+/* bagian footer */
+footer {
+  background-color: #000000; /* Warna cokelat sesuai dengan gambar */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
 }
 
 .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .social-media {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .social-media a {
-    margin: 0 10px;
-    display: inline-block;
+  margin: 0 10px;
+  display: inline-block;
 }
 
 .social-media img {
-    width: 24px;
-    height: 24px;
-    vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
 }
 
 .footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 10px 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .footer-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
 }
 
 footer p {
-    margin: 0;
-    font-size: 14px;
+  margin: 0;
+  font-size: 14px;
 }
