@@ -265,6 +265,8 @@ body {
   padding: 1rem;
   margin: 0.5rem;
   border: 1px solid #666;
+  background-color: #693f07;
+  justify-items: center;
 }
 
 .menu .row .menu-card .menu-image {
@@ -280,12 +282,20 @@ body {
 }
 
 .menu .row .menu-card .menu-card-price {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 1rem;
+  width: 12rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card .menu-card-price b {
+  font-size: 1.2rem;
 }
 
 .order {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   border-radius: 50px;
   border: 2px dashed #a5a55d;
 }
